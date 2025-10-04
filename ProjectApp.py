@@ -61,7 +61,7 @@ st.markdown("""
 # ---------------------------
 def scan_models():
     """
-    Find best_model_*.pkl and pair with adjacent JSON, normalizing 'use' -> 'usa'.
+    Find best_model_usa.pkl and pair with adjacent JSON, normalizing 'use' -> 'usa'.
     Returns an ordered dict-like: key -> {'pkl': ..., 'json': ...}
     """
     candidates = {}
